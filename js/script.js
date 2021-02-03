@@ -28,4 +28,12 @@ if (playerInput == "1") {
 if (playerInput == "2") {
   playerMove = "papier";
 }
+
+if (playerInput == "3") {
+  playerMove = "nożyce";
+}
 printMessage("Twój ruch to: " + playerMove);
+
+if (computerMove == "kamień" && playerMove == "papier") {
+  printMessage("Ty wygrywasz!");
+}
