@@ -67,5 +67,3 @@
       playGame(3);
     });
 }
-
-/*zamień funkcje nazwane na funkcje anonimowe zapisane w stałych*/
